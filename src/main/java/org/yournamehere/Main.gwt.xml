@@ -12,7 +12,10 @@
     <!-- <inherits name="com.google.gwt.user.theme.chrome.Chrome"/> -->
     <!-- <inherits name="com.google.gwt.user.theme.dark.Dark"/> -->
 
+    <inherits name="org.jboss.errai.ui.UI" />
     <inherits name="org.jboss.errai.databinding.DataBinding" />
+    <inherits name="org.jboss.errai.common.ErraiCommon" />
+    <inherits name="org.jboss.errai.enterprise.CDI" />
     
     <entry-point class="org.yournamehere.client.MainEntryPoint"/>
 

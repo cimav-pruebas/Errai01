@@ -13,12 +13,12 @@ import org.jboss.errai.databinding.client.api.Bindable;
  */
 @Bindable
 public class Customer {
-  private String name;
+  private String nom;
  
-  public String getName() {
-    return name;
+  public String getNom() {
+    return nom;
   }
-  public void setName(String name) {
-    this.name = name;
+  public void setNom(String nom) {
+    this.nom = nom;
   }
 }
