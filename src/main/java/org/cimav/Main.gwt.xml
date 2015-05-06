@@ -12,9 +12,10 @@
     <!-- <inherits name="com.google.gwt.user.theme.chrome.Chrome"/> -->
     <!-- <inherits name="com.google.gwt.user.theme.dark.Dark"/> -->
 
+    <inherits name="org.jboss.errai.common.ErraiCommon" />
     <inherits name="org.jboss.errai.databinding.DataBinding" />
     
-    <entry-point class="org.yournamehere.client.MainEntryPoint"/>
+    <entry-point class="org.cimav.client.MainEntryPoint"/>
 
     <!-- Do not define servlets here, use web.xml -->
 </module>
